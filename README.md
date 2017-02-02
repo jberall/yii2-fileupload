@@ -11,6 +11,11 @@ After install
 Migrations are not done.
 Open the file_upload_table.sql in your database and run it as a query.
 
+In your config file put
+    'controllerMap' => [
+        'file-upload' => 'jberall\fileupload\controllers\FileUploadController',
+    ],
+
 Either run
 
 ```
