@@ -15,6 +15,17 @@ In your config file put
     'controllerMap' => [
         'file-upload' => 'jberall\fileupload\controllers\FileUploadController',
     ],
+then http://your-site.com/file-upload
+
+Or
+
+'modules' => [
+        'fuext' => [
+            'class' => 'jberall\fileupload\Module',
+        ],   
+], 
+
+then http://your-site.com/fuext/file-upload
 
 Either run
 

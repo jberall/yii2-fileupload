@@ -21,8 +21,8 @@ class Module extends \yii\base\Module
 
         parent::init();
 
-//        print_R($this);
-//        echo $this->runAction('file-upload');
+        $this->controllerNamespace = $this->controllerNamespace;
+//        $this->controllerMap = ['fu' => 'jberall\fileupload\controllers\FileUploadController'];
         
     }
     
