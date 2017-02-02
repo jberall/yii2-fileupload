@@ -1,26 +1,3 @@
---
--- PostgreSQL database dump
---
-
--- Dumped from database version 9.6.1
--- Dumped by pg_dump version 9.6.1
-
--- Started on 2017-02-02 11:06:31
-
-SET statement_timeout = 0;
-SET lock_timeout = 0;
-SET idle_in_transaction_session_timeout = 0;
-SET client_encoding = 'UTF8';
-SET standard_conforming_strings = on;
-SET check_function_bodies = false;
-SET client_min_messages = warning;
-SET row_security = off;
-
-SET search_path = public, pg_catalog;
-
-SET default_tablespace = '';
-
-SET default_with_oids = false;
 
 --
 -- TOC entry 194 (class 1259 OID 43073)
@@ -117,23 +94,7 @@ ALTER SEQUENCE file_upload_id_seq OWNED BY file_upload.id;
 ALTER TABLE ONLY file_upload ALTER COLUMN id SET DEFAULT nextval('file_upload_id_seq'::regclass);
 
 
---
--- TOC entry 2238 (class 0 OID 43073)
--- Dependencies: 194
--- Data for Name: file_upload; Type: TABLE DATA; Schema: public; Owner: postgres
---
 
-COPY file_upload (id, _id, notes, file_blob, name, mime_type, size, web_file_name, save_type, created_at, updated_at, created_by, updated_by) FROM stdin;
-\.
-
-
---
--- TOC entry 2248 (class 0 OID 0)
--- Dependencies: 193
--- Name: file_upload_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
---
-
-SELECT pg_catalog.setval('file_upload_id_seq', 13, true);
 
 
 --
