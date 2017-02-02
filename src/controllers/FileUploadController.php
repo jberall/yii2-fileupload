@@ -1,10 +1,10 @@
 <?php
 
-namespace frontend\controllers;
+namespace jberall\fileupload\controllers;
 
 use Yii;
-use frontend\models\FileUpload;
-use frontend\models\FileUploadSearch;
+use jberall\fileupload\models\FileUpload;
+use jberall\fileupload\models\FileUploadSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;

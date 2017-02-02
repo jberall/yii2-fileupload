@@ -4,7 +4,7 @@ use yii\helpers\Html;
 use yii\widgets\ActiveForm;
 
 /* @var $this yii\web\View */
-/* @var $model frontend\models\FileUploadSearch */
+/* @var $model jberall\fileupload\models\FileUploadSearch */
 /* @var $form yii\widgets\ActiveForm */
 ?>
 

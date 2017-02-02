@@ -4,7 +4,7 @@ use yii\helpers\Html;
 
 
 /* @var $this yii\web\View */
-/* @var $model frontend\models\FileUpload */
+/* @var $model jberall\fileupload\models\FileUpload */
 
 $this->title = Yii::t('app', 'Upload');
 $this->params['breadcrumbs'][] = ['label' => Yii::t('app', 'File Uploads'), 'url' => ['index']];

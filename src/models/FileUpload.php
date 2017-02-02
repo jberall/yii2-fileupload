@@ -1,6 +1,6 @@
 <?php
 
-namespace frontend\models;
+namespace jberall\fileupload\models;
 
 use Yii;
 use yii\behaviors\BlameableBehavior;

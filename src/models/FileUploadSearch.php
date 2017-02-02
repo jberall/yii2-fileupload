@@ -1,14 +1,14 @@
 <?php
 
-namespace frontend\models;
+namespace jberall\fileupload\models;
 
 use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use frontend\models\FileUpload;
+use jberall\fileupload\models\FileUpload;
 
 /**
- * FileUploadSearch represents the model behind the search form about `frontend\models\FileUpload`.
+ * FileUploadSearch represents the model behind the search form about `jberall\fileupload\models\FileUpload`.
  */
 class FileUploadSearch extends FileUpload
 {

@@ -3,7 +3,7 @@
 use yii\helpers\Html;
 
 /* @var $this yii\web\View */
-/* @var $model frontend\models\FileUpload */
+/* @var $model jberall\fileupload\models\FileUpload */
 
 $this->title = Yii::t('app', 'Update {modelClass}: ', [
     'modelClass' => 'File Upload',
