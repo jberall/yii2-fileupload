@@ -10,7 +10,7 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist jberall/yii2-fileupload "*"
+composer require jberall/yii2-fileupload:dev-master 
 ```
 
 or add
@@ -28,4 +28,3 @@ Usage
 Once the extension is installed, simply use it in your code by  :
 
 ```php
-<?= \jberall\fileupload\AutoloadExample::widget(); ?>```
